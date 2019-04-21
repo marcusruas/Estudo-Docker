@@ -1,0 +1,5 @@
+docker image build -t buildargs .
+docker container run buildargs bash -c "echo $S3_BUCKET"
+
+passando argumentos
+docker container run buildargscp bash -c "echo $S3_BUCKET"
